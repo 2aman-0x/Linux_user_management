@@ -41,5 +41,9 @@
 - ```-s``` (shell type)
 - ```-L -U``` (Lock Unlock a user)
 
+__Examples__
+
+- ```usermod -m -d /home/New_user user```
+
 
 
