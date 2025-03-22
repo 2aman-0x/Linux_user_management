@@ -26,3 +26,20 @@
 - ```user del -r``` (Will remove home directory)
 - ```user del -f``` (force delete even if the user is logged in)
 
+### To add a user to a new group,but default group will remain same
+
+- ```usermod -G <GROUPNAME> <User_Name>```
+
+### To change the default group
+
+- ```userdel -g <Group_name> <user_name>```
+
+### Some Others USERMOD options
+
+- ```-m -d``` (To move the content of home folder to this new folder)
+- ```-p``` (we can use passwd command also)
+- ```-s``` (shell type)
+- ```-L -U``` (Lock Unlock a user)
+
+
+
