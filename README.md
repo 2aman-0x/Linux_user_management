@@ -34,7 +34,7 @@
 
 - ```userdel -g <Group_name> <user_name>```
 
-### Some Others USERMOD options
+### Some Others USERMOD amd Groups options
 
 - ```-m -d``` (To move the content of home folder to this new folder)
 - ```-p``` (we can use passwd command also)
@@ -43,7 +43,15 @@
 
 __Examples__
 
-- ```usermod -m -d /home/New_user user```
+- ```usermod -m -d /home/New_user user```  
+
+__How to add groups__
+
+- ```groupadd <group_names>```
+- ```groupdel <group_name>```
+
+
+
 
 
 
